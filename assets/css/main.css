@@ -1,0 +1,300 @@
+.header_nav--container{
+    margin: -8px -12px;
+}
+
+.bg-black{
+    background-color: #000;
+}
+
+.bg-greentree{
+    background-color: #009688;
+}
+
+.mt-12{
+    margin-top: 12px;
+}
+
+.mt-32{
+    margin-top: 32px;
+}
+
+.mt-86{
+    margin-top: 86px;
+}
+
+.mt-120{
+    margin-top: 120px;
+}
+
+.mt-16{
+    margin-top: 16px;
+}
+
+.mt-48{
+    margin-top: 48px;
+}
+
+.header{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.header_nav{
+    margin: 0 -12px;
+}
+
+.header_nav--items{
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 12px 24px !important;
+}
+.header_nav .header_nav--items:hover,
+.header_nav--drop:hover{
+    background-color: #ccc;
+    color: #000;
+}
+
+.header__search{
+    padding: 12px 24px !important;
+}
+
+.header__search:hover{
+    background-color: #F44336;
+}
+
+.header__search--btn{
+    color: #fff;
+}
+
+.slider{
+    padding-top: 40px;
+    position: relative;
+    display: flex;
+}
+
+.slider .slider__ders{
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 32px 16px;
+}
+
+.slider .slider__ders--heading{
+    margin: 10px 0;
+    font-size: 22px;
+}
+
+.slider .slider__ders--sub{
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+
+.bodypage .theband__titile{
+    font-size: 32px;
+    letter-spacing: 4px;
+}
+
+.bodypage .theband__ders{
+   font-style: italic;
+   color: rgba(0, 0, 0, 0.6);
+}
+
+.bodypage .theband__sub{
+    font-size:15px;
+}
+
+.member{
+    display: flex;
+}
+
+.member .member__img{
+    border-radius: 5px;
+    width: 50%;
+}
+
+.tour__date{
+    background-color:#000000;
+} 
+
+.tour__date .tour__date--heading{
+    padding-top:80px;
+}   
+
+.tour__date .tour__date--title{
+    font-size: 32px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+.tour__date .tour__date--sub{
+    font-style: italic;
+   color: rgba(255, 255, 255, 0.6);
+}
+
+.tour__date .tour__date--season{
+    display: flex;
+}   
+
+.tour__date--season .sold-out{
+    padding: 0 8px;
+    margin-left: 16px;
+    margin-bottom: 0px;
+    background-color: #F44336;
+    color: #fff;
+}
+
+.tour__date .season{
+    position: relative;
+    padding: 8px 16px;
+    display: flex;
+    color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    align-items: center;
+}
+
+.tour__date .border_3{
+    position: absolute;
+    margin-bottom:0px;
+    border-radius: 50%;
+    width:30px;
+    background-color: #000;
+    color: #fff;
+    right: 0;
+    margin-right: 16px;
+}
+
+.place__container{
+    padding-bottom: 86px;
+}
+
+.place__img{
+    width: 100%;
+}
+
+.place__img:hover{
+    opacity: 0.7;
+}
+
+.place__body{
+    padding-left: 8px;
+    color: #000;
+    background-color: #fff;
+}
+
+.place__body .place__btn:hover{
+    color: #000;
+    background-color: #ddd;
+}
+
+.place__heading{
+    font-weight: 600;
+}
+
+.place__date{
+    font-size: 14px;
+    font-style: italic;
+}
+
+.place__ders{
+    font-size:15px;
+}
+
+.contact__heading{
+    font-size: 32px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.contact__ders{
+    margin-bottom: 48px;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.contact__address{
+    font-size: 18px;
+}
+
+.contact__list{
+    list-style: none;
+    margin-left: -32px;
+}
+
+
+.contact__form{
+    position: relative;
+}
+
+.form__btn{
+    position: absolute;
+    right: 0;
+    margin-right: 12px;
+}
+
+.footer{
+    margin-bottom: 86px;
+}
+
+.footer__icon{
+    color: rgba(0, 0, 0, 0.6);
+    font-size:22px;
+}
+
+.footer .footer_sub{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+.modal__wrap{
+    height: 470px;
+}
+
+.modal__header{
+    display: flex;
+    height:130px;
+    position: relative;
+}
+
+.modal .btn__close{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+
+.modal .modal__heading{
+    margin:auto;
+    font-size: 32px;
+    letter-spacing: 4px;
+    color: #fff;
+}
+
+.modal__body--w3b{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal__btn{
+    height: 54px;
+    border: 1px solid #fff;
+    border-radius:3px;
+}
+
+.modal__input{
+    height:50px;
+}
+
+
+/* responsive */
+@media (max-width: 768px) {
+    .header__search{
+        display: none;
+    }
+    .form__name{
+        padding-bottom: 8px;
+    }
+ }
